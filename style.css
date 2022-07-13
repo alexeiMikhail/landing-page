@@ -68,3 +68,34 @@
     padding: 5px 20px 5px 20px;
     margin-top: 20px;
 }
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery-heading {
+    size: 36px;
+    font-weight: bolder;
+    font-size: 36px;
+    margin: 20px;
+    align-self: center;
+}
+
+.gallery-images {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.gallery-image {
+    width: 200px;
+}
+
+.gallery-image .image {
+    border-color: black;
+    padding: 100px;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 20px;
+}
