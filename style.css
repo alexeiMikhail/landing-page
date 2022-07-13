@@ -80,12 +80,13 @@
     font-size: 36px;
     margin: 20px;
     align-self: center;
+    color: #1F2937;
 }
 
 .gallery-images {
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 100px;
 }
 
 .gallery-image {
@@ -93,9 +94,14 @@
 }
 
 .gallery-image .image {
-    border-color: black;
+    border-color: #3882f6;
     padding: 100px;
-    border-width: 10px;
+    border-width: 5px;
     border-style: solid;
     border-radius: 20px;
+}
+
+.image-caption {
+    margin-top: 20px;
+    color: #1F2937;
 }
