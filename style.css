@@ -64,11 +64,11 @@
 .button {
     background-color: #3882f6;
     border-radius: 5px;
-    width: fit-content;
     padding: 5px 20px 5px 20px;
     border-style: solid;
     margin-top: auto;
     margin-bottom: auto;
+    width: fit-content;
 }
 
 .button:hover {
@@ -122,19 +122,17 @@
 .container4 {
     display: flex;
     justify-content: space-between;
-    margin: 20px 200px 20px 200px;
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
     padding: 40px;
     background-color: #3882f6;
     align-content: center;
+    width: 800px;
 }
 
 .call-to-action {
-    width: 700px;
-    padding: 40px 40px 40px 0px;
-}
-
-.comtainer4 .button {
-    justify-self: right;
-    margin-top: auto;
-    margin-bottom: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0px 40px 0px;
 }
