@@ -1,13 +1,17 @@
-
-html * {
+* {
     font-family: 'Roboto', sans-serif;
     margin: 0px;
+}
+
+.container1 {
+    background-color: #1F2937;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    background-color: #1F2937;
 }
 
 .header-logo {
@@ -23,11 +27,11 @@ html * {
     padding-left: 10px;
 }
 
-.hook {
+.hero {
     display: flex;
 }
 
-.hero {
+.hero-main-text {
     font-size: 48px;
     font-weight:bolder;
 }
