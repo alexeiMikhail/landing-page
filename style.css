@@ -44,8 +44,12 @@
 
 .hero-image {
     background-color: gray;
+    color: whitesmoke;
 }
 
 .button {
     background-color: #3882f6;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 5px 20px 5px 20px;
 }
