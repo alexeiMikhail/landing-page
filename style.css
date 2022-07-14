@@ -125,6 +125,20 @@
 .container3 {
     background-color: #E5E7EB;
     padding: 100px 300px 100px 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 36px;
+    font-weight:1;
+}
+
+.author {
+    align-self:flex-end;
+    font-weight: bolder;
+    margin-top: 20px;
 }
 
 .container4 {
