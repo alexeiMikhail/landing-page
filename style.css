@@ -144,3 +144,14 @@
     flex-direction: column;
     padding: 40px 0px 40px 0px;
 }
+
+.container5 {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-text {
+    color: #F9FAF8;
+    padding: 20px;
+}
