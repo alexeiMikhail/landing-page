@@ -137,12 +137,19 @@
     background-color: #3882f6;
     align-content: center;
     width: 800px;
+    border-radius: 20px;
 }
 
 .call-to-action-text {
     display: flex;
     flex-direction: column;
     padding: 40px 0px 40px 0px;
+    color: #F9FAF8;
+}
+
+.cta-heading {
+    font-weight: bolder;
+    font-size: larger;
 }
 
 .container5 {
